@@ -1,70 +1,76 @@
-# Sprint 12 – Dashboard de Tendências de Vídeos
+# 📊 Video Trends Dashboard
 
-## Descrição do Projeto
+## 📌 Project Overview
 
-Neste projeto, meu objetivo foi construir um **dashboard interativo** para analisar tendências de vídeos ao longo do tempo. Utilizei dados sobre o histórico de tendências, filtrando por **data, hora e país**, para entender quais categorias de vídeos são mais populares e como elas se distribuem regionalmente.  
+This project focuses on building an interactive Tableau dashboard to analyze video trending patterns over time and across countries.
 
----
+Using historical trending data, the dashboard allows users to explore changes in the number and percentage of trending videos, compare patterns across regions, and investigate which video categories appear most frequently in trending lists.
 
-## Dados Utilizados
+## 🎯 Business Objectives
 
-Arquivo principal: `trending_by_time.csv`  
+- Identify video categories that frequently appear in trending lists.
+- Analyze how trending categories vary across countries and regions.
+- Investigate popular video categories in the United States.
+- Compare video trends in the US with those in other countries.
+- Present findings through interactive visualizations to support data-driven decisions.
 
-- Contém informações sobre vídeos em alta, categorias, número de vídeos na seção de tendências (`videos_count`), data, hora e país.  
+## 🗂️ Data
 
----
+**Main dataset:** `trending_by_time.csv`
 
-## Passos do Projeto
+The dataset contains information about video trends, including:
 
-### Passo 1: Preparar os Dados
-- Carreguei o arquivo `trending_by_time.csv` no Tableau Public.  
-- Verifiquei a consistência dos dados, tipos de colunas e formatação de datas.  
+- Date and time
+- Country
+- Video category
+- Number of videos in the trending section (`videos_count`)
 
-### Passo 2: Construir o Dashboard
-- Criei filtros de **data/hora** e **país** que modificam todos os gráficos do dashboard.  
-- Adicionei dois gráficos de histórico de interação:
-  - **Histórico de tendências:** eixo X = data/hora, eixo Y = número de vídeos na seção de tendências (`videos_count`).  
-  - **Histórico de tendências, %:** eixo X = data/hora, eixo Y = porcentagem de vídeos.  
-- Modelei o dashboard seguindo o rascunho fornecido.  
+## 🔬 Methodology
 
-### Passo 3: Publicar o Dashboard
-- Publiquei o dashboard no **Tableau Public**.  
-- Testei o acesso em diferentes navegadores para garantir que todos possam visualizar.  
-- Incluí o link público no projeto.  
+### 1. Data Preparation
 
-### Passo 4: Análise e Respostas aos Gerentes
-- Analisei o dashboard para responder às perguntas:
-  1. Quais categorias de vídeo estão em alta com mais frequência?  
-  2. Como essas categorias foram distribuídas entre as regiões?  
-  3. Quais categorias foram especialmente populares nos Estados Unidos?  
-  4. Houve diferenças entre as categorias populares nos EUA e em outros países?  
-- Registrei minhas respostas e insights em um relatório.  
+- Loaded the dataset into Tableau Public.
+- Checked data consistency and column data types.
+- Reviewed date and time formatting to support temporal analysis.
 
-### Passo 5: Preparar a Apresentação
-- Compilei os insights e gráficos do dashboard em um **PDF**.  
-- Certifiquei-me de que o relatório fosse claro e apresentasse conclusões acionáveis.  
+### 2. Dashboard Development
 
----
+- Built interactive filters for date, time, and country.
+- Created a time-series chart showing the number of trending videos.
+- Developed a percentage-based trend chart to compare changes over time.
+- Connected the filters to the dashboard visualizations for interactive exploration.
 
-## Entrega do Projeto
+### 3. Trend Analysis
 
-Para entrega ao revisor, organizei os arquivos da seguinte forma:
+Used the dashboard to investigate category popularity, geographic differences, and changes in trending patterns over time.
 
-1. `trending_by_time.csv` — arquivo de dados usado no dashboard.  
-2. Link para o dashboard publicado no Tableau Public.  
-3. Arquivo PDF com a apresentação e relatório das análises.  
+### 4. Reporting and Presentation
 
-Opcionalmente, todos os arquivos foram compactados em um **arquivo ZIP** para envio, mantendo o tamanho abaixo de 9 MB.  
+Prepared a report and PDF presentation to communicate the findings and summarize the main insights.
 
----
+## 🛠️ Tools and Technologies
 
-## Avaliação
+- Tableau Public
+- Data visualization
+- Dashboard development
+- Exploratory data analysis
+- Data storytelling
 
-Meu projeto foi avaliado com base em:
+## 📈 Key Findings
 
-- Correção e consistência dos dados carregados.  
-- Funcionalidade do dashboard interativo (filtros e gráficos).  
-- Clareza e organização dos gráficos e filtros.  
-- Capacidade de responder às perguntas dos gerentes usando o dashboard.  
-- Qualidade da apresentação em PDF e clareza dos insights.  
-- Publicação correta e acessível do dashboard no Tableau Public.  
+This section should summarize the actual findings from the dashboard, including the categories that appeared most frequently in trending lists and the differences observed between the United States and other countries.
+
+## 🚀 Project Deliverables
+
+- **Interactive Dashboard:** 
+- **Analysis Report:** [Add PDF link, if available]
+
+## 💡 Skills Demonstrated
+
+- Interactive dashboard development
+- Data visualization
+- Temporal and geographic trend analysis
+- Data exploration and interpretation
+- Communicating insights to stakeholders
+
+
