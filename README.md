@@ -65,7 +65,7 @@ This section should summarize the actual findings from the dashboard, including 
 - **Interactive Dashboard:** [**View Interactive Dashboard on Tableau Public**](https://public.tableau.com/views/Sprint12_17559840597160/Painel5?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
   
-- **Analysis Report:** [Add PDF link, if available]
+- **Analysis Report:** Project Report.pdf
 
 ## 💡 Skills Demonstrated
 
